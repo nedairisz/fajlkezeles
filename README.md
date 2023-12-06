@@ -12,11 +12,11 @@ open(fajlnev,mod, kodolas)
 
 fajlom = open(fajlnev, "r", encoding='utf-8')
 
-fajltartalom_szovegesen = print(f.read()) – kiolvassa a fájl tartalmát
+fajltartalom_szovegesen = print(fajlom.read()) – kiolvassa a fájl tartalmát
 
-kovetkezo_sor = print(f.readline()) – kiolvassa a fájl következő tejes sorát
+kovetkezo_sor = print(fajlom.readline()) – kiolvassa a fájl következő tejes sorát
 
-sorok_lista = print(f.readlines()) – kiolvassa a fájl összes sorát és soronként beleteszi egy listába. 
+sorok_lista = print(fajlom.readlines()) – kiolvassa a fájl összes sorát és soronként beleteszi egy listába. 
 
 
 ## Használat után zárjuk le a fájlt!
