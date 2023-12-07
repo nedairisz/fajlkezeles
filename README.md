@@ -1,7 +1,7 @@
 # Fájlkezelés pythonban
 
 ## Fájl megnyitása: 
-open(fajlnev,mod, kodolas)
+open(fajlnev,mod, kodolas) 
 
 ### mód
 
