@@ -26,6 +26,7 @@ for i in range(0,len(szemeleyek_lista),1):
 
 
 import feladatok_szemelyeklistaval
+
 atlageletkor=feladatok_szemelyeklistaval.atlageletkor(szemeleyek_lista)
 print(atlageletkor)
 
